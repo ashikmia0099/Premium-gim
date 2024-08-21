@@ -9,6 +9,19 @@
 
 
 
+
+
+.imagesection{
+
+    background-image: url('../images/images2.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 50%;
+    height: 600px;
+    
+}
+
+
 /* nabvar css code */
 
 
