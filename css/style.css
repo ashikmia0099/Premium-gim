@@ -1,6 +1,7 @@
 
 .fullbody{
     background-color: black;
+    margin: 0px;
     
     
 }
@@ -65,6 +66,14 @@
 /* nabbar mobile css  */
 
 @media (min-width: 0px) and (max-width:  576px){
+
+    
+.fullbody{
+    background-color: black;
+    margin: 0px;
+    
+    
+}
 
     .navfirstdiv{
         display: flex;
@@ -349,27 +358,12 @@
        
     }
 
-    .joinbutton{
-        padding: 15px 5vw;
-        border-radius: 50px;
-        background-color: rgb(230, 83, 60);
-        border: none;
-        color: white;
-    }
-    .downloadbutton{
-        padding: 15px 5vw;
-        border-radius: 50px;
-        
-        color: white;
-        border: 1px solid white;
-        margin-left: 20px;
-        
-        
-    }
+    
 
     .buttondiv{
         justify-content: space-between;
         padding-top: 5vh;
+        display: flex;
 
     }
 
@@ -481,9 +475,6 @@
 
 
 }
-
-
-
 
 
 /* section three code */
@@ -923,14 +914,18 @@ table {
 /* mobile device */
 
 
+
+
+
 @media (min-width: 0px) and (max-width:  576px){
-
-
+        
+        
     .sectionfive{
 
     
-        padding: 0px;
-
+        
+        margin: 0px;
+        
     }
 
 
@@ -968,7 +963,7 @@ table {
         padding: 0px;
         justify-content: space-around;
         
-        padding: 2% 5% 50px 5%;
+        
         
 
 
@@ -1071,15 +1066,32 @@ table {
         background-color: rgb(230, 83, 60);
         border-radius: 40px;
         border: none;
+        margin-bottom: 50px;
+        margin-left: 20px;
 
     }
       
 
+    .input-container{
+        padding : 5% 0px;
+    }
+
+    .tablediv{
+        margin: 5%;
+    }
+
+    .sectionfivecalculaor h1, p{
+       
+        margin-left: 10px;
+    }
+
+    .input-container{
+        width: calc(100% -20px);
+    }
 
 
     
 }
-
 
 
 
@@ -1502,6 +1514,7 @@ footer{
 
 
     footer{
+        margin: 0px;
         background: rgba(255, 255, 255, 0.1);
         
         padding: 3% 7%;
