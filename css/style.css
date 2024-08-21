@@ -198,7 +198,7 @@
 
         .imagesection{
 
-            background-image: url(./images/images2.png);
+            background: url(./images/images2.png);
             background-repeat: no-repeat;
             background-size: auto;
             width: 50%;
