@@ -1,0 +1,1571 @@
+
+.fullbody{
+    background-color: black;
+    
+    
+}
+
+
+
+
+/* nabvar css code */
+
+
+.navfirstdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+}
+.fitnessdiv{
+    color: rgb(230, 83, 60);
+    
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.manuebar {
+    display: flex;
+    padding: 6px 20px 6px 0px;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 40px;
+}
+.serviceli {
+    color: white;
+    display: flex;
+    font-size:1rem ;
+    padding-right: 40px;
+}
+.homemanue{
+    padding: 5px 10px 5px 10px;
+    margin-right: 30px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-left: -21px;
+}
+
+
+.manubarimage{
+    height: 50px;
+    width: 80px;
+   
+}
+
+.manubardiv{
+    display: none;
+}
+
+
+
+/* nabbar mobile css  */
+
+@media (min-width: 0px) and (max-width:  576px){
+
+    .navfirstdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 5%;
+    }
+    .fitnessdiv{
+        color: rgb(230, 83, 60);
+        
+        font-family: "Inter", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .manuebar {
+        display: flex;
+        padding: 6px 20px 6px 0px;
+        border: 1px solid rgb(58, 58, 58);
+        border-radius: 40px;
+        display: none;
+    }
+    .serviceli {
+        color: white;
+        display: flex;
+        font-size:1rem ;
+        padding-right: 40px;
+    }
+    .homemanue{
+        padding: 5px 10px 5px 10px;
+        margin-right: 30px;
+        background-color: rgb(230, 83, 60);
+        color: white;
+        text-decoration: none;
+        border-radius: 40px;
+        margin-left: -21px;
+    }
+
+
+    .manubarimage{
+        height: 50px;
+        width: 80px;
+       
+    }
+
+    .manubardiv{
+        display: block;
+    }
+
+
+    
+    
+
+}
+
+
+
+
+
+ /* section two  */
+
+
+    
+        .sectiontwo{
+
+            padding: 0px 5%;
+            margin-bottom: 5%;
+
+
+
+        }
+        .textcolsection {
+           padding-right: 15%;
+           padding-bottom: 50px;
+           width: 50%;
+
+        }
+        .textcolsection h1{
+            font-size: 4.5rem;
+            color: white;
+            font-family: "Inter", sans-serif;
+            width: 80%;
+
+        }
+        .textcolsection span{
+            font-size: 4.5rem;
+            color: white;
+            font-family: 'Miama', sans-serif;
+                                                
+
+        }
+        .textcolsection p{
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.5);
+            
+
+        }
+
+        .sectiontwodiv{
+            display: flex;
+            justify-content: space-between;
+            
+           
+        }
+
+        .joinbutton{
+            padding: 15px 35px;
+            border-radius: 50px;
+            background-color: rgb(230, 83, 60);
+            border: none;
+            color: white;
+        }
+        .downloadbutton{
+            padding: 15px 35px;
+            border-radius: 50px;
+            
+            color: white;
+            border: 1px solid white;
+            margin-left: 20px;
+            
+            
+        }
+
+        .buttondiv{
+            justify-content: space-between;
+            padding-top: 5vh;
+
+        }
+
+        .imagesection{
+
+            background-image: url(./images/images2.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            width: 50%;
+            height: 600px;
+            top: 135px;
+        }
+
+        .backgroundfirstcard{
+            
+            position: absolute;
+            width: 193px;
+            height: 98px;
+            right: 12%;
+            
+            top: 180px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px ;
+            
+           
+        }
+        .backgroundfirstcard p{
+            color: white;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 0px;
+            font-family: "Inter", sans-serif;
+            margin-top: 0px;
+            
+
+            
+        }
+        .backgroundfirstcard a{
+            color: white;
+            font-weight: 500;
+            color: rgba(239, 237, 232, 0.65);
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            
+        }
+
+        .backgroundsecondcard{
+            
+            position: absolute;
+            width: 206px;
+            height: 96px;
+            right: 40%;
+            bottom: 0px;
+           
+            background: rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+
+            backdrop-filter: blur(20px);
+            background: rgba(48, 48, 48, 0.54);
+            margin-left: 0px;
+            display: flex;
+            align-items: center;
+            padding: 15px 15px;
+        }
+        .backgroundsecondcard p{
+            color: white;
+            padding-left: 15px;
+            font-size: 25px;
+            height: 24px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: -5px;
+            font-family: "Inter", sans-serif;
+            
+           
+
+        }
+        .backgroundsecondcard a{
+            color: rgba(239, 237, 232, 0.65);
+           
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 4px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            padding-left: 15px;
+            
+            font-family: "Inter", sans-serif;
+           
+
+        }
+        .circlebol h4{
+            height: 40px;
+            width: 40px;
+            background-color: rgb(230, 83, 60);
+            border-radius: 50%;
+
+           
+
+        }
+
+
+
+/* mobile device */
+      
+@media (min-width: 0px) and (max-width:  576px){
+
+    .sectiontwo{
+
+        padding: 0px 5%;
+        margin-bottom: 5%;
+
+
+
+    }
+    .textcolsection {
+       padding-right: 0%;
+       padding-bottom: 50px;
+       width:100%;
+
+    }
+    .textcolsection h1{
+        font-size: 4.5rem;
+        color: white;
+        font-family: "Inter", sans-serif;
+        width: 100%;
+
+    }
+    .textcolsection span{
+        font-size: 4.5rem;
+        color: white;
+        font-family: 'Miama', sans-serif;
+                                            
+
+    }
+    .textcolsection p{
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter", sans-serif;
+        
+
+    }
+
+    .sectiontwodiv{
+        flex-direction: column;
+        justify-content: space-between;
+        
+       
+    }
+
+    .joinbutton{
+        padding: 15px 5vw;
+        border-radius: 50px;
+        background-color: rgb(230, 83, 60);
+        border: none;
+        color: white;
+    }
+    .downloadbutton{
+        padding: 15px 5vw;
+        border-radius: 50px;
+        
+        color: white;
+        border: 1px solid white;
+        margin-left: 20px;
+        
+        
+    }
+
+    .buttondiv{
+        justify-content: space-between;
+        padding-top: 5vh;
+
+    }
+
+    .imagesection{
+
+        background-image: url(./images/images2.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 100%;
+        height: 600px;
+        top: 135px;
+    }
+
+    .backgroundfirstcard{
+        
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        right: 12%;
+        
+        top: 900px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px ;
+        
+       
+    }
+    .backgroundfirstcard p{
+        color: white;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 0px;
+        font-family: "Inter", sans-serif;
+        margin-top: 0px;
+        
+
+        
+    }
+    .backgroundfirstcard a{
+        color: white;
+        font-weight: 500;
+        color: rgba(239, 237, 232, 0.65);
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        
+    }
+
+    .backgroundsecondcard{
+        
+        position: absolute;
+        width: 206px;
+        height: 96px;
+        right: 50%;
+        bottom: 0px;
+        top: 1150px;
+        background: rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        padding: 15px 15px;
+    }
+    .backgroundsecondcard p{
+        color: white;
+        padding-left: 15px;
+        font-size: 25px;
+        height: 24px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        margin-top: -5px;
+        font-family: "Inter", sans-serif;
+        
+       
+
+    }
+    .backgroundsecondcard a{
+        color: rgba(239, 237, 232, 0.65);
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 4px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        padding-left: 15px;
+        
+        font-family: "Inter", sans-serif;
+       
+
+    }
+    
+
+    .circlebol h4{
+        height: 40px;
+        width: 40px;
+        background-color: rgb(230, 83, 60);
+        border-radius: 50%;
+
+       
+
+    }
+
+
+}
+
+
+
+
+
+/* section three code */
+
+
+
+.sectionthreediv h1{
+
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 50px;
+
+
+
+}
+
+.sectionthreediv p{
+
+    color: rgba(239, 237, 232, 0.65);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin: 0px 25%;
+    
+
+}
+
+.imagclass{
+   
+   border-radius: 50%;
+}
+
+.imagedivsectonthree h3{
+    color: white;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.imagedivsectonthree p{
+    color: rgba(239, 237, 232, 0.65);
+    
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+   
+    
+}
+.imagedivsectonthree {
+    padding: 0px 3%;
+    text-align: center;
+    
+}
+
+.sectionimagediv{
+    display: flex;
+    padding-top: 50px;
+   
+}
+
+
+
+.sectionthree{
+    padding: 0px 5%;
+}
+
+
+
+/* section three mobile */
+
+@media (min-width: 0px) and (max-width:  576px){
+
+    .sectionthreediv h1{
+
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5rem;
+        padding-top: 50px;
+
+
+
+    }
+
+    .sectionthreediv p{
+
+        color: rgba(239, 237, 232, 0.65);
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        margin: 0px 10%;
+        
+
+    }
+
+    .imagclass{
+       
+       border-radius: 50%;
+    }
+
+    .imagedivsectonthree h3{
+        color: white;
+        font-family: "Inter", sans-serif;
+        
+    }
+
+    .imagedivsectonthree p{
+        color: rgba(239, 237, 232, 0.65);
+        
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+       
+        
+    }
+    .imagedivsectonthree {
+        padding: 0px 3%;
+        text-align: center;
+        padding-top: 50px;
+        
+    }
+
+    .sectionimagediv{
+        flex-direction: column;
+        padding-top: 50px;
+       
+    }
+
+    
+
+    .sectionthree{
+        padding: 0px 5%;
+    }
+
+
+}
+
+
+
+
+/* section four css code */
+
+
+.sectionfour{
+    border-radius: 18px;
+
+    backdrop-filter: blur(20px);
+    
+
+    background: rgb(34, 34, 34);
+    height: 371px;
+    order: 0;
+    margin: 62px 5%;
+    
+}
+
+.sectionfourtextdiv{
+    width: 45%;
+    padding: 3%;
+    
+}
+.sectionfourtextdiv h1{
+    color: white;
+    font-size: 2.6rem;
+    width: 50%;
+    font-family: "Inter", sans-serif;
+
+}
+.sectionfourtextdiv p{
+    color: rgba(255, 255, 255, 0.5);;
+    font-size: 1rem;
+    width: 70%;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.joinnowbutton{
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    
+    font-family: "Inter", sans-serif;
+}
+
+.sectionfourdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secitonfourimagediv {
+    padding: 3%;
+    
+}
+.secitonfourimagediv img{
+    height: 300px;
+    width: 400px;
+    text-align: end;
+    border-radius: 20px;
+    
+}
+
+
+/* section four mobile code  */
+
+
+@media (min-width: 0px) and (max-width:  576px){
+
+    .sectionfour{
+        border-radius: 18px;
+
+        backdrop-filter: blur(20px);
+        
+
+        background: rgb(34, 34, 34);
+        height: 100%;
+        order: 0;
+        margin: 62px 5%;
+        
+    }
+
+    .sectionfourtextdiv{
+        width: 100%;
+        padding: 1%;
+        
+    }
+    .sectionfourtextdiv h1{
+        color: white;
+        font-size: 2.6rem;
+        width: 100%;
+        font-family: "Inter", sans-serif;
+
+    }
+    .sectionfourtextdiv p{
+        color: rgba(255, 255, 255, 0.5);;
+        font-size: 1rem;
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 30px;
+
+    }
+
+    .joinnowbutton{
+        padding: 10px 25vw;
+       
+        border-radius: 50px;
+        background-color: rgb(230, 83, 60);
+        border: none;
+        color: white;
+        margin: auto;
+        text-align: center;
+        
+        font-family: "Inter", sans-serif;
+    }
+
+    .sectionfourdiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10%;
+    }
+
+    .secitonfourimagediv {
+        padding: 5%;
+        
+    }
+    .secitonfourimagediv img{
+        height: 300px;
+        width: 70vw;
+        text-align: end;
+        border-radius: 20px;
+
+        margin-top: 30px;
+        
+        
+    }
+
+
+    
+}
+
+
+
+
+/* section five */
+
+
+.sectionfive{
+
+        
+    padding: 0px;
+
+}
+
+
+
+.sectionfivediv{
+    color: white;
+    text-align: center;
+}
+.sectionfivediv h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+
+}
+.sectionfivediv p{
+    color: white;
+    margin: 0px 25%;
+    color: rgba(255, 255, 255, 0.5);;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.sectionfivesecdiv{
+
+    backdrop-filter: blur(20px);
+
+
+    background: rgb(34, 34, 34);
+    
+    margin: none;
+    margin:  66px 0px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    padding-top: 2%;
+
+
+}
+
+.sectionfivechar {
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+
+.sectionfivechar h1{
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 16%;
+}
+
+.sectionfivecalculaor h1{
+    
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+}
+.sectionfivecalculaor p{
+    
+    color: rgba(255, 255, 255, 0.5);;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+}
+
+.inputclass{
+    background-color:rgba(109, 107, 107, 0.5); 
+    border: none;
+    padding: 10px;
+    
+    border-radius: 4px;
+    flex: 1;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+
+
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px; 
+
+
+  }
+
+
+  
+
+.textcolor{
+    color: white;
+    border: 1px solid gray;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+
+    
+       
+    
+}
+
+td{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+
+}
+
+table, td, th {
+  border: 1px solid gray;
+  padding: 12px 50px;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.weightbutton{
+    margin-top: 40px;
+    padding: 15px 70px;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+
+}
+
+
+/* mobile device */
+
+
+@media (min-width: 0px) and (max-width:  576px){
+
+
+    .sectionfive{
+
+    
+        padding: 0px;
+
+    }
+
+
+   
+    .sectionfivediv{
+        color: white;
+        text-align: center;
+    }
+    .sectionfivediv h1{
+        color: white;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Inter", sans-serif;
+
+    }
+    .sectionfivediv p{
+        color: white;
+        margin: 0px 25%;
+        color: rgba(255, 255, 255, 0.5);;
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+    }
+
+    .sectionfivesecdiv{
+
+        backdrop-filter: blur(20px);
+    
+
+        background: rgb(34, 34, 34);
+        
+        margin: none;
+        margin:  66px 0px;
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: space-around;
+        
+        padding: 2% 5% 50px 5%;
+        
+
+
+    }
+
+    .sectionfivechar {
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-bottom: 7%;
+    }
+
+    .sectionfivechar h1{
+        text-align: center;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 1.6rem;
+        margin-bottom: 16%;
+    }
+
+    .sectionfivecalculaor h1{
+        
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 1.6rem;
+    }
+    .sectionfivecalculaor p{
+        
+        color: rgba(255, 255, 255, 0.5);;
+        font-size: 1rem;
+        font-family: "Inter", sans-serif;
+        width: 80%;
+    }
+
+    .inputclass{
+        background-color:rgba(109, 107, 107, 0.5); 
+        border: none;
+        padding: 10px;
+        
+        border-radius: 4px;
+        flex: 1;
+    }
+
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 80vw;
+
+
+      }
+      
+      .row {
+        display: flex;
+        gap: 10px; 
+
+
+      }
+
+
+      
+
+    .textcolor{
+        color: white;
+        border: 1px solid gray;
+        font-family: "Inter", sans-serif;
+        font-size: 1.5rem;
+
+        
+           
+        
+    }
+
+    td{
+
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter", sans-serif;
+        font-size: 1.2rem;
+
+    }
+
+    table, td, th {
+      border: 1px solid gray;
+      padding: 12px 5vw;
+      
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+
+    .weightbutton{
+        margin-top: 40px;
+        padding: 15px 70px;
+        font-size: 1.2rem;
+        color: white;
+        font-family: "Inter", sans-serif;
+        background-color: rgb(230, 83, 60);
+        border-radius: 40px;
+        border: none;
+
+    }
+      
+
+
+
+    
+}
+
+
+
+
+/* section six */
+
+.sectionsix{
+    padding: 5%;
+    
+}
+
+.sectinsixdiv h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+
+.sectinsixdiv p{
+    color: rgba(255, 255, 255, 0.5);;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin: 0px 20%;
+    text-align: center;
+
+
+}
+
+.sectinsixsecdiv{
+
+    backdrop-filter: blur(20px);
+
+
+    background: rgb(34, 34, 34);
+    display: flex;
+    
+    justify-content: space-around;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 40px;
+
+    margin-top: 50px;
+    gap: 20px;
+   
+    
+
+}
+
+.sectionsiximagedivone{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer1.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+    
+
+}
+
+.sectionsiximagedivonetext{
+    bottom: auto;
+    
+}
+
+.sectionsiximagedivonetext h1{
+    color: white;
+    font-size: 1.2rem;
+    
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 0px;
+    
+
+}
+.sectionsiximagedivonetext p{
+    
+    font-size: 1.2rem;
+    vertical-align: bottom;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.5);;
+    margin-bottom: 0px;
+    
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+
+}
+.sectionsiximagedivtwo{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer2.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+
+}
+.sectionsiximagedivthree{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer3.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+
+}
+.sectionsiximagedivfour{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer4.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+
+}
+.sectionsiximagedivfive{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer5.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+
+}
+.sectionsiximagedivsix{
+    height: 285px;
+    width: 360px;
+    background-image: url(./images/trainer6.png);
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    padding-bottom: 10px;
+
+}
+
+
+/* section six mobile */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section seven */
+
+.sectionseven{
+    align-items: center;
+}
+
+
+.sectionseven h1{
+    color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.sectionseveninput{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+    padding: 2%;
+    
+    gap: 15px;
+    backdrop-filter: blur(20px);
+
+
+    background: rgb(34, 34, 34);
+}
+
+
+.sectionseveninputfile{
+    width: 95%;
+    background-color: rgba(53, 51, 51, 0.5);
+    border: none;
+    padding: 10px;
+    
+}
+
+.lebelcalss{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.fomrbutton{
+    margin-top: 0px;
+
+    padding: 6px 25px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+
+}
+
+
+.sectionseven {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.sectionseveninputfile {
+    
+    
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.lastname{
+    margin-bottom: 10px;
+}
+
+
+.formclass{
+    margin: auto;
+}
+
+
+
+/* mobile device */
+
+
+@media (min-width: 0px) and (max-width:  576px){
+
+    .sectionseven{
+        align-items: center;
+    }
+
+
+    .sectionseven h1{
+        color: white;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 2.5rem;
+
+    }
+
+    .sectionseveninput{
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        margin: auto;
+        width: 90%;
+        padding: 2%;
+        
+        gap: 15px;
+        backdrop-filter: blur(20px);
+    
+
+        background: rgb(34, 34, 34);
+    }
+    
+
+    .sectionseveninputfile{
+        width: 95%;
+        background-color: rgba(53, 51, 51, 0.5);
+        border: none;
+        padding: 10px;
+        
+    }
+
+    .lebelcalss{
+        color: white;
+        font-family: "Inter", sans-serif;
+    }
+
+    .fomrbutton{
+        margin-top: 0px;
+
+        padding: 6px 25px;
+        color: white;
+        font-family: "Inter", sans-serif;
+        background-color: rgb(230, 83, 60);
+        border-radius: 40px;
+        border: none;
+
+    }
+
+
+    .sectionseven {
+        display: flex;
+        flex-direction: column;
+        
+    }
+ 
+    
+    .sectionseveninputfile {
+        
+        
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+
+    .lastname{
+        margin-bottom: 10px;
+    }
+   
+   
+    .formclass{
+        margin: auto;
+    }
+
+
+
+}
+
+
+/* foter section  */
+
+
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    
+    padding: 3% 7%;
+    margin-top: 5% ;
+}
+
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding-bottom: 66px;
+}
+
+.footerfirstdiv {
+    width: 50%;
+}
+.footerfirstdiv h1{
+    font-size: 3.5rem;
+    
+    font-family: "Inter", sans-serif;
+    color: rgb(230, 83, 60);
+}
+.footerfirstdiv p{
+    font-size: 1.2rem;
+    width: 80%;
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    
+
+}
+.getstarted{
+    width: 25%;
+    
+}
+
+.getstarted h1{
+    font-size: 2rem;
+    
+    font-family: "Inter", sans-serif;
+    color: white;
+    
+}
+.getstarted li{
+    font-size: 1.5rem;
+    
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 15px;
+    list-style-type: none;
+    
+}
+
+.footerptag{
+
+    font-size: 1.5rem;
+    
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+
+
+/* mobile section */
+
+
+@media (min-width: 0px) and (max-width:  576px){
+
+
+    footer{
+        background: rgba(255, 255, 255, 0.1);
+        
+        padding: 3% 7%;
+        margin-top: 5% ;
+    }
+
+    .footerdiv{
+        flex-direction: column;
+        justify-content: space-around;
+        border-bottom: 1px solid gray;
+        padding-bottom: 66px;
+    }
+
+    .footerfirstdiv {
+        width: 100%;
+    }
+    .footerfirstdiv h1{
+        font-size: 3.5rem;
+        
+        font-family: "Inter", sans-serif;
+        color: rgb(230, 83, 60);
+    }
+    .footerfirstdiv p{
+        font-size: 1.2rem;
+        width: 96%;
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        
+
+    }
+    .getstarted{
+        width: 100%;
+        
+    }
+
+    .getstarted h1{
+        font-size: 2rem;
+        
+        font-family: "Inter", sans-serif;
+        color: white;
+        
+    }
+    .getstarted li{
+        font-size: 1.5rem;
+        
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        padding-top: 15px;
+        list-style-type: none;
+        
+    }
+
+    .footerptag{
+
+        font-size: 1.5rem;
+        
+        font-family: "Inter", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        padding-top: 15px;
+        text-align: center;
+
+    }
+  
+
+}
+  
+  
